@@ -14,7 +14,7 @@ In the near future I want to add a calendar feature on the website, so ETS Ramet
 I also would like to add a nav bar somewhere so the user can navigate the sections faster and maybe a dark theme.
 But all of this has to be approved first by Hélène Ramette.
 
-The website is not online yet, but when it will be, I will have to work with PHP to make the form on the website work properly.
+The website is not online yet, but when it will be, I will have to use PHP to make the form on the website work properly.
 
 I really enjoyed working with an experienced UX/UI designer, 
 it sure has taught me a lot about responsive margins, text placements on different devices, 
