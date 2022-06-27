@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Define keywords for search engines -->
-    <meta name="keywords" content="Location, Grue, opérateur, BOUVAINCOURT-SUR-BRESLE, Rémy Ramette, bouvaincourt sur bresle, ETS Ramette">
+    <meta name="keywords" content="Location, Grue, opérateur, BOUVAINCOURT-SUR-BRESLE, Rémy Ramette">
     <!-- Define a description of your web page: -->
     <meta name="description" content="Service de location de grue avec opérateur à BOUVAINCOURT-SUR-BRESLE">
     <!-- Define the author of a page: -->
@@ -25,9 +25,9 @@
 
   <body class="container-fluid">
     <!-- First part with pic start -->
-    <div id="chantier-box" class="container-fluid">
-      <img id="chantier" src="./construction-site.jpg"  alt="Image d'un chantier en construction"/>
-      <img id="logo" src="./logoRR.png" alt="Logo de l'entreprise ETS Ramette" width="50" height="50"/>
+    <div id="chantier-box">
+      <img id="chantier" src="/construction-site.jpg"  alt="Image d'un chantier en construction" width="4096" height="2731"/>
+      <img id="logo" src="/logoRR.png" alt="Logo de l'entreprise ETS Ramette" width="50" height="50" />
       <div id="slogan-box">
         <p id="slogan">Réservez votre grue avec opérateur.</p>
       </div>
@@ -52,7 +52,7 @@
         <h2 class="bold accompagnement">Notre accompagnement</h2>
         <div class="row">
           <div class="text-in-row1 col">
-            <img class="profile-img" src="./600.jpg" alt="carré arrondi violet" width="88" height="88" />
+            <img class="profile-img" src="/600.jpg" alt="carré arrondi violet" width="88" height="88" />
             <p class="img-subtitle">À taille humaine</p>
             <p class="text-in-row-par1">
               Les Ets. Ramette vous proposent leur prestation de location de
@@ -62,7 +62,7 @@
             </p>
           </div>
           <div class="text-in-row2 col">
-            <img class="profile-img" src="./600.jpg" alt="carré arrondi violet" width="88" height="88" />
+            <img class="profile-img" src="/600.jpg" alt="carré arrondi violet" width="88" height="88" />
             <p class="img-subtitle">Efficace et rapide</p>
             <p class="text-in-row-par2">
               Nous assurons le convoyage du matériel jusqu'au lieu
@@ -71,7 +71,7 @@
             </p>
           </div>
           <div class="text-in-row3 col">
-            <img class="profile-img" src="./600.jpg" alt="carré arrondi violet" width="88" height="88" />
+            <img class="profile-img" src="/600.jpg" alt="carré arrondi violet" width="88" height="88" />
             <p class="img-subtitle">Sans surprises</p>
             <p class="text-in-row-par3">
               Nos tarifs comprennent le transport de la machine jusqu'au lieu
@@ -98,10 +98,12 @@
           </p>
         </div>
         <img
-          src="./googleMap.jpg"
+          src="/googleMap.jpg"
           alt="une carte des régions dans lesquelles ETS Ramette peut se déplacer"
           id="mapGoogle"
           class="container-fluid"
+          width="1007"
+          height="760"
         />
       </div>
       <!-- Nos déplacements end-->
@@ -111,9 +113,9 @@
         <p class="bold nousContacter">Nous contacter</p>
         <div id="contact-infos">
           <p class="bold underline infos-pratiques">Infos pratiques :</p>
-          <img class="iconTel" src="./telIcon.jpg" alt="icône de téléphone" width="48" height="48" />
-          <img class="iconMail" src="./mailIcon.jpg" alt="icône d'e-mail" width="49" height="48" />
-          <img class="iconCal" src="./calendarIcon.jpg" alt="icône de calendrier" width="48" height="48" />
+          <img class="iconTel" src="/telIcon.jpg" alt="icône de téléphone" width="48" height="48" />
+          <img class="iconMail" src="/mailIcon.jpg" alt="icône d'e-mail" width="49" height="48" />
+          <img class="iconCal" src="/calendarIcon.jpg" alt="icône de calendrier" width="48" height="48" />
           <a href="tel:+33322600727" class="contact">03 22 60 07 27</a>
           <br />
           <span class="contactMail">remy.ramette@hotmail.fr</span>
@@ -124,7 +126,7 @@
         <p class="bold underline message">Nous envoyer un message :</p>
         <form
           id="form"
-          method="POST"
+          method="post"
           action="form.php"
           target="_blank"
           autocomplete="off"
@@ -144,7 +146,7 @@
             class="box-border input-business"
             name="business"
             id="business"
-            placeholder=" "
+            placeholder=""
           />
           <label id="email-label" for="email">Mail * :</label>
           <input
@@ -166,7 +168,7 @@
           <input
             type="text"
             class="box-border input-address"
-            name="adresse"
+            name="adresse-postale"
             placeholder="ex : 1 rue de la paix 75008"
           />
           <label id="objet">Objet de votre demande * :</label>
@@ -192,6 +194,7 @@
             -->
           <p class="yourMsg">Votre message * :</p>
           <textarea
+            name="msg"
             class="input-textarea"
             placeholder="Tapez votre message ici."
             required></textarea>
@@ -205,7 +208,7 @@
     <!-- Nous contacter end-->
     <footer id="footer" class="container-fluid">
       <div class="footer-margins">
-        <a href="mentionsLégales.html" alt="lien vers les mentions légales" class="bold underline mentions">Mentions légales</a>
+        <a href="/mentionsLégales.html" alt="lien vers les mentions légales" class="bold underline mentions">Mentions légales</a>
         <p class="protection"><span class="bold underline">Protection des données :</span>
           Nous ne récoltons pas vos données.</p>
           <br />
