@@ -3,6 +3,7 @@ body {
   text-align: left;
   font-family: "Inter", sans-serif;
   justify-items: center;
+  height: auto;
 }
 
 .bold {
@@ -20,8 +21,8 @@ body {
 /*First part with picture START */
 #logo {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 20px;
+  right: 15px;
 }
 
 #chantier-box {
@@ -29,7 +30,6 @@ body {
 }
 
 #chantier {
-  position: relative;
   width: 100%;
   height: 423px;
   opacity: 0.7;

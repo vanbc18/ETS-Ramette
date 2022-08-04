@@ -5,6 +5,12 @@
     height: 423px;
   }
 
+  #logo {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+  }
+
   #slogan {
     position: relative;
     width: 469px;
