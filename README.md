@@ -26,7 +26,7 @@ The design part of the website was done on Figma by [Hélène Ramette](https://w
 
 This is my very first real project !
 
-You can find the actual website at <a href="https://www.ets-ramette.fr/" alt="the actual website">www.ets-ramette.fr/</a>
+You can find the actual [website](https://www.ets-ramette.fr/)</a>
 
 Special thanks to [PHPMailer](https://github.com/PHPMailer/PHPMailer), I couldn't have sent mails without you <3
 
