@@ -14,9 +14,10 @@
   }
 
   #logo {
-    position: absolute;
-    top: 20px;
-    right: 85px;
+    width: 45%;
+    max-width: 1280px;
+    height: 118px;
+    top: 58px;
   }
 
   #slogan-box {
